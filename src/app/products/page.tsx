@@ -138,7 +138,8 @@ export default function Products() {
             <Card style={{ height: 400 }}>
               <Image src={product.thumbnail} height={250} />
               <h2>Product Title : {product.title}</h2>
-              <h3>Product Price:{product.price}</h3>
+              <h3>Product Price: {product.price}</h3>
+              <h3>Product Rating: {product.rating}</h3>
             </Card>
           </Col>
         ))}
